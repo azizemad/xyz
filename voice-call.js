@@ -9,8 +9,8 @@ class VoiceCall {
         this.isCaller = false;
         this.callStatus = 'idle';
 
-        this.ringtone = new Audio('');
-        this.callSound = new Audio('');
+        this.ringtone = new Audio('https://firebasestorage.googleapis.com/v0/b/football-az-5a50d.appspot.com/o/%D8%B5%D9%88%D8%AA%20%D8%B1%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81.mp3?alt=media&token=2156da03-c2dd-4547-9b41-66d19ffa6b57');
+        this.callSound = new Audio('https://firebasestorage.googleapis.com/v0/b/football-az-5a50d.appspot.com/o/%D8%B5%D9%88%D8%AA%20%D8%B1%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81.mp3?alt=media&token=2156da03-c2dd-4547-9b41-66d19ffa6b57');
 
         this.createCallModal();
         this.setupEventListeners();
